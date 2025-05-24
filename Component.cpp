@@ -2,7 +2,6 @@
 /// @brief Implementación de los métodos de la clase Component.
 
 #include "Component.h"
-
 /// @brief Constructor que inicializa un objeto Component con los valores dados.
 /// @param id Identificador del componente.
 /// @param name Nombre del componente.

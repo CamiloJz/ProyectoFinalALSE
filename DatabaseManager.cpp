@@ -46,7 +46,6 @@ void DatabaseManager::closeDatabase()
         m_db.close();
     }
 }
-
 /// @brief Crea las tablas necesarias en la base de datos si no existen.
 /// @return true si la tabla se crea o ya existía sin errores; false en caso contrario.
 bool DatabaseManager::initializeTables()

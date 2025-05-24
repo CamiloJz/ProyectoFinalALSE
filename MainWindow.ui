@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>MainWindow</class>            <!-- Se corrige </nslass> a </class> -->
+ <class>MainWindow</class>            
  <widget class="QMainWindow" name="MainWindow">
   <property name="geometry">
    <rect>
-    <x>0</x>                          <!-- Se corrige </nslax> a </x> -->
-    <y>0</y>                          <!-- Se corrige </nslay> a </y> -->
-    <width>800</width>                <!-- Se corrige </nslidth> a </width> -->
-    <height>600</height>              <!-- Se corrige </nslength> a </height> -->
+    <x>0</x>                          
+    <y>0</y>                          
+    <width>800</width>                
+    <height>600</height>              
    </rect>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QVBoxLayout" name="verticalLayout">
     
-    <!-- PRIMERA FILA: búsqueda y alerta de stock -->
     <item>
      <layout class="QHBoxLayout" name="horizontalLayoutTop">
       <item>
@@ -50,12 +49,10 @@
      </layout>
     </item>
     
-    <!-- SEGUNDA FILA: tabla de componentes -->
     <item>
      <widget class="QTableView" name="componentsTableView"/>
     </item>
     
-    <!-- TERCERA FILA: botones de acción -->
     <item>
      <layout class="QHBoxLayout" name="horizontalLayoutBottom">
       <item>

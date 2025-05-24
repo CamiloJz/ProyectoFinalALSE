@@ -1,6 +1,5 @@
 /// @file ReportGenerator.h
 /// @brief Declaración de la clase ReportGenerator para generar informes de componentes.
-
 #ifndef REPORTGENERATOR_H
 #define REPORTGENERATOR_H
 

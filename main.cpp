@@ -1,6 +1,5 @@
 /// @file main.cpp
 /// @brief Punto de entrada de la aplicación de inventario.
-
 #include "MainWindow.h"
 #include <QApplication>
 

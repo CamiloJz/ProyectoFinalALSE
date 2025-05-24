@@ -1,6 +1,5 @@
 /// @file MainWindow.cpp
 /// @brief Implementación de la clase MainWindow para la interfaz principal de la aplicación.
-
 #include "MainWindow.h"
 #include "ui_MainWindow.h"
 #include <QMessageBox>

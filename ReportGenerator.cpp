@@ -1,6 +1,5 @@
 /// @file ReportGenerator.cpp
 /// @brief Implementación de los métodos de la clase ReportGenerator para generación de informes en CSV y PDF.
-
 #include "ReportGenerator.h"
 #include <QFile>
 #include <QTextStream>

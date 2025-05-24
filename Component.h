@@ -117,6 +117,5 @@ private:
     QString m_location;  /**< Ubicación de almacenamiento */
     QDate m_purchaseDate;/**< Fecha de compra del componente */
 };
-
 #endif // COMPONENT_H
 

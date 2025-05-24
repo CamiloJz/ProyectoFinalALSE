@@ -44,7 +44,6 @@ public:
     /// @param component Objeto Component con los datos del nuevo componente.
     /// @return true si la operación se completa correctamente; false en caso de error.
     bool addComponent(const Component &component);
-
     /// @brief Actualiza los datos de un componente existente en el inventario.
     /// @param component Objeto Component con el ID y los nuevos datos.
     /// @return true si la actualización se realiza correctamente; false en caso de error.

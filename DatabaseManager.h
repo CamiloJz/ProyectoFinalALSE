@@ -47,7 +47,6 @@ public:
     /// @param component Objeto Component con el ID y los nuevos valores a actualizar.
     /// @return true si la actualización se realiza correctamente; false en caso de error.
     bool updateComponent(const Component &component);
-
     /// @brief Elimina un componente de la base de datos según su ID.
     /// @param id Identificador del componente a eliminar.
     /// @return true si la eliminación es exitosa; false en caso de error.

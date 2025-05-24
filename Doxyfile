@@ -43,7 +43,7 @@ HTML_DYNAMIC_SECTIONS  = YES
 FULL_PATH_NAMES        = YES
 STRIP_FROM_PATH        = .
 
-# Opcional: mejora el look
+# Opcional: mejora el look.
 GENERATE_TREEVIEW      = YES
 
 

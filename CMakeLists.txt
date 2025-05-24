@@ -19,7 +19,7 @@ find_package(Qt5 REQUIRED COMPONENTS Widgets Sql PrintSupport)
 # 4. Incluir el directorio de compilación para que encuentre los archivos generados (ui_*.h, moc_*.cpp, qrc_*.cpp)
 include_directories(${CMAKE_CURRENT_BINARY_DIR})
 
-# 5. Listado de todos los .cpp del proyecto
+# 5. Listado de todos los .cpp del proyecto.
 set(SOURCES
     main.cpp
     MainWindow.cpp

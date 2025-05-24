@@ -9,7 +9,6 @@
 InventoryManager::InventoryManager(QObject *parent)
     : QObject(parent)
 {}
-
 /// @brief Destructor de InventoryManager.
 /// Libera recursos si es necesario.
 InventoryManager::~InventoryManager()

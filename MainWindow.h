@@ -1,6 +1,5 @@
 /// @file MainWindow.h
 /// @brief Declaración de la clase MainWindow para la interfaz principal de la aplicación.
-
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
