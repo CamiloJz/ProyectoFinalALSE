@@ -1,0 +1,5 @@
+<map id="InventoryManager::getAllComponents" name="InventoryManager::getAllComponents">
+<area shape="rect" id="Node000001" title="Obtiene todos los componentes del inventario." alt="" coords="5,5,192,45"/>
+<area shape="rect" id="Node000002" href="$classDatabaseManager.html#a90b6e109c3462588c8e2a8958e64ca64" title="Recupera todos los componentes almacenados en la base de datos." alt="" coords="240,5,439,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="192,23,226,23,226,28,192,28"/>
+</map>

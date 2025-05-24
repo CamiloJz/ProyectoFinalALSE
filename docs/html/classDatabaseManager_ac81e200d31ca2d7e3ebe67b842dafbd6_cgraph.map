@@ -1,0 +1,13 @@
+<map id="DatabaseManager::addComponent" name="DatabaseManager::addComponent">
+<area shape="rect" id="Node000001" title="Inserta un nuevo componente en la tabla de componentes." alt="" coords="5,104,253,129"/>
+<area shape="rect" id="Node000002" href="$classComponent.html#affbdac04e08e18487fb4cb139b71dbc7" title="Obtiene la ubicación de almacenamiento del componente." alt="" coords="320,5,477,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="155,101,220,71,300,39,325,32,327,37,302,45,222,76,157,106"/>
+<area shape="rect" id="Node000003" href="$classComponent.html#ac3e00b0de9b1817765d0f4838f04d159" title="Obtiene el nombre descriptivo del componente." alt="" coords="327,55,470,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="199,101,315,80,316,85,200,107"/>
+<area shape="rect" id="Node000004" href="$classComponent.html#a67289b67df4f7f707c5ad1083feea23a" title="Obtiene la fecha de compra del componente." alt="" coords="301,104,496,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="253,114,288,114,288,119,253,119"/>
+<area shape="rect" id="Node000005" href="$classComponent.html#af6393dedb829b5c2527f09da4fa4d05c" title="Obtiene la cantidad disponible del componente." alt="" coords="319,153,478,179"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="200,127,316,148,315,153,199,132"/>
+<area shape="rect" id="Node000006" href="$classComponent.html#a54762b55028636c72dcf9737417239df" title="Obtiene el tipo o categoría del componente." alt="" coords="331,203,466,228"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="158,127,223,156,302,187,331,197,330,202,300,193,221,161,156,132"/>
+</map>

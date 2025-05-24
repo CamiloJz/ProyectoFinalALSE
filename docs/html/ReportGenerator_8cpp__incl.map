@@ -1,0 +1,25 @@
+<map id="ReportGenerator.cpp" name="ReportGenerator.cpp">
+<area shape="rect" id="Node000001" title="Implementación de los métodos de la clase ReportGenerator para generación de informes en CSV y PDF." alt="" coords="429,5,585,31"/>
+<area shape="rect" id="Node000002" href="$ReportGenerator_8h.html" title="Declaración de la clase ReportGenerator para generar informes de componentes." alt="" coords="116,79,257,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="456,33,252,78,251,73,455,28"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="311,225,374,251"/>
+<area shape="poly" id="edge12_Node000001_Node000007" title=" " alt="" coords="483,33,449,53,417,80,402,104,384,140,354,214,349,212,379,138,397,102,413,77,446,48,480,28"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="427,79,482,104"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="500,33,473,69,469,66,496,29"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="507,79,613,104"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="518,29,545,66,541,69,513,33"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="637,79,731,104"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="536,28,644,71,642,76,534,33"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="755,79,832,104"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="553,28,742,75,741,80,552,33"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,152,80,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="165,106,80,148,77,143,162,102"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="173,225,243,251"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="175,106,149,138,143,157,145,176,159,198,178,215,175,219,155,201,140,178,137,157,145,136,171,103"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="155,152,218,177"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="189,104,189,138,184,138,184,104"/>
+<area shape="rect" id="Node000006" href="$Component_8h.html" title="Define la clase Component, que representa un componente de inventario con propiedades como id,..." alt="" coords="243,152,352,177"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="206,102,269,142,266,147,203,106"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="285,179,235,219,232,214,281,175"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="307,176,330,212,326,215,303,179"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="DatabaseManager::searchComponents" name="DatabaseManager::searchComponents">
+<area shape="rect" id="Node000001" title="Busca componentes cuyo nombre o tipo contenga la palabra clave proporcionada." alt="" coords="245,13,520,38"/>
+<area shape="rect" id="Node000002" href="$classInventoryManager.html#a4474f6d9cc0c3f79d6e3f362bdcfb460" title="Busca componentes cuyo nombre, tipo o ubicación contenga la palabra clave." alt="" coords="5,5,197,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="232,28,197,28,197,23,232,23"/>
+</map>

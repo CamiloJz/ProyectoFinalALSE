@@ -1,0 +1,9 @@
+<map id="Gráfico de jerarquía de clases" name="Gráfico de jerarquía de clases">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,55,80,80"/>
+<area shape="rect" id="Node000001" href="$classDatabaseManager.html" title="Clase que administra la conexión y las operaciones CRUD sobre la base de datos de componentes." alt="" coords="128,5,269,31"/>
+<area shape="poly" id="edge2_Node000000_Node000001" title=" " alt="" coords="93,49,157,28,158,33,94,54"/>
+<area shape="rect" id="Node000002" href="$classInventoryManager.html" title="Clase que actúa como capa intermedia entre la interfaz de usuario y la base de datos." alt="" coords="128,55,269,80"/>
+<area shape="poly" id="edge3_Node000000_Node000002" title=" " alt="" coords="94,65,128,65,128,70,94,70"/>
+<area shape="rect" id="Node000003" href="$classReportGenerator.html" title="Clase responsable de generar informes en distintos formatos a partir de una lista de componentes." alt="" coords="133,104,264,129"/>
+<area shape="poly" id="edge4_Node000000_Node000003" title=" " alt="" coords="94,81,158,101,157,106,93,86"/>
+</map>

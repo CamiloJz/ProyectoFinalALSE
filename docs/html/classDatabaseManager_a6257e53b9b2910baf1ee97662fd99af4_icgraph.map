@@ -1,0 +1,5 @@
+<map id="DatabaseManager::removeComponent" name="DatabaseManager::removeComponent">
+<area shape="rect" id="Node000001" title="Elimina un componente de la base de datos según su ID." alt="" coords="252,13,527,38"/>
+<area shape="rect" id="Node000002" href="$classInventoryManager.html#a82d3d3afd939e7ccc62db45865a8ca00" title="Elimina un componente del inventario según su ID." alt="" coords="5,5,204,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="238,28,204,28,204,23,238,23"/>
+</map>

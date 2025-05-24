@@ -1,0 +1,7 @@
+<map id="InventoryManager::initialize" name="InventoryManager::initialize">
+<area shape="rect" id="Node000001" title="Inicializa el gestor de inventario abriendo la base de datos." alt="" coords="5,42,211,67"/>
+<area shape="rect" id="Node000002" href="$classDatabaseManager.html#afe8b34eadd9a2f0f80a36516ff69b292" title="Crea las tablas necesarias en la base de datos si no existen." alt="" coords="277,5,483,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="210,41,264,35,264,40,211,46"/>
+<area shape="rect" id="Node000003" href="$classDatabaseManager.html#addc09029100f4c2fb131a8ac98a5dedb" title="Abre una conexión a la base de datos SQLite en la ruta especificada." alt="" coords="259,70,501,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="211,63,245,66,245,71,210,68"/>
+</map>

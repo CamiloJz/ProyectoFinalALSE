@@ -1,0 +1,42 @@
+<map id="MainWindow.cpp" name="MainWindow.cpp">
+<area shape="rect" id="Node000001" title="Implementación de la clase MainWindow para la interfaz principal de la aplicación." alt="" coords="549,5,681,31"/>
+<area shape="rect" id="Node000002" href="$MainWindow_8h.html" title="Declaración de la clase MainWindow para la interfaz principal de la aplicación." alt="" coords="257,79,374,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="568,33,378,78,376,73,567,28"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="398,79,534,104"/>
+<area shape="poly" id="edge20_Node000001_Node000014" title=" " alt="" coords="592,33,504,75,502,70,590,28"/>
+<area shape="rect" id="Node000015" title=" " alt="" coords="558,79,673,104"/>
+<area shape="poly" id="edge21_Node000001_Node000015" title=" " alt="" coords="618,31,618,65,613,65,613,31"/>
+<area shape="rect" id="Node000016" title=" " alt="" coords="697,79,803,104"/>
+<area shape="poly" id="edge22_Node000001_Node000016" title=" " alt="" coords="638,28,717,70,715,74,636,33"/>
+<area shape="rect" id="Node000017" title=" " alt="" coords="828,79,925,104"/>
+<area shape="poly" id="edge23_Node000001_Node000017" title=" " alt="" coords="658,28,822,72,820,78,657,33"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,152,121,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="276,107,118,151,117,146,274,101"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="146,152,306,177"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="303,106,253,145,250,141,299,102"/>
+<area shape="rect" id="Node000005" href="$InventoryManager_8h.html" title="Declaración de la clase InventoryManager para la gestión de inventario." alt="" coords="330,152,482,177"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="332,102,382,141,379,145,328,106"/>
+<area shape="rect" id="Node000013" href="$ReportGenerator_8h.html" title="Declaración de la clase ReportGenerator para generar informes de componentes." alt="" coords="449,225,590,251"/>
+<area shape="poly" id="edge15_Node000002_Node000013" title=" " alt="" coords="367,101,442,123,474,136,496,150,513,180,521,211,515,212,508,182,492,154,472,141,440,128,366,107"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="377,299,451,324"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="409,178,415,285,410,285,404,178"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="476,299,539,324"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="483,165,516,172,549,182,579,199,604,224,610,235,610,246,599,265,577,282,552,295,550,291,575,277,595,262,605,244,604,236,600,227,576,204,547,187,514,177,482,171"/>
+<area shape="rect" id="Node000008" href="$Component_8h.html" title="Define la clase Component, que representa un componente de inventario con propiedades como id,..." alt="" coords="243,299,353,324"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="340,180,263,200,231,213,212,227,208,236,207,244,217,261,236,277,259,290,256,295,233,281,213,265,202,245,203,234,208,224,228,208,261,195,339,175"/>
+<area shape="rect" id="Node000011" href="$DatabaseManager_8h.html" title="Declaración de la clase DatabaseManager para gestionar la conexión y operaciones en la base de datos." alt="" coords="222,225,374,251"/>
+<area shape="poly" id="edge10_Node000005_Node000011" title=" " alt="" coords="390,180,329,220,326,215,387,175"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="447,372,517,397"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="329,322,440,364,438,369,327,327"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="267,372,329,397"/>
+<area shape="poly" id="edge9_Node000008_Node000010" title=" " alt="" coords="301,324,301,358,295,358,295,324"/>
+<area shape="poly" id="edge11_Node000011_Node000006" title=" " alt="" coords="318,248,385,289,382,294,315,253"/>
+<area shape="poly" id="edge14_Node000011_Node000007" title=" " alt="" coords="332,248,464,292,462,297,331,253"/>
+<area shape="poly" id="edge13_Node000011_Node000008" title=" " alt="" coords="301,251,301,285,295,285,295,251"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="105,299,219,324"/>
+<area shape="poly" id="edge12_Node000011_Node000012" title=" " alt="" coords="277,253,197,295,195,290,275,248"/>
+<area shape="poly" id="edge16_Node000013_Node000006" title=" " alt="" coords="504,253,444,293,441,289,501,248"/>
+<area shape="poly" id="edge18_Node000013_Node000007" title=" " alt="" coords="520,251,514,286,509,285,515,251"/>
+<area shape="poly" id="edge19_Node000013_Node000008" title=" " alt="" coords="485,253,347,297,346,292,483,248"/>
+<area shape="poly" id="edge17_Node000013_Node000009" title=" " alt="" coords="532,250,552,283,557,304,554,325,537,348,517,366,513,362,533,345,549,323,552,304,547,285,527,252"/>
+</map>

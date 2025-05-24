@@ -1,0 +1,15 @@
+<map id="InventoryManager::addComponent" name="InventoryManager::addComponent">
+<area shape="rect" id="Node000001" title="Agrega un nuevo componente al inventario." alt="" coords="5,104,253,129"/>
+<area shape="rect" id="Node000002" href="$classDatabaseManager.html#ac81e200d31ca2d7e3ebe67b842dafbd6" title="Inserta un nuevo componente en la tabla de componentes." alt="" coords="301,104,549,129"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="253,114,288,114,288,119,253,119"/>
+<area shape="rect" id="Node000003" href="$classComponent.html#affbdac04e08e18487fb4cb139b71dbc7" title="Obtiene la ubicación de almacenamiento del componente." alt="" coords="616,5,773,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="451,101,516,71,596,39,621,32,623,37,598,45,518,76,453,106"/>
+<area shape="rect" id="Node000004" href="$classComponent.html#ac3e00b0de9b1817765d0f4838f04d159" title="Obtiene el nombre descriptivo del componente." alt="" coords="623,55,766,80"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="495,101,611,80,612,85,496,107"/>
+<area shape="rect" id="Node000005" href="$classComponent.html#a67289b67df4f7f707c5ad1083feea23a" title="Obtiene la fecha de compra del componente." alt="" coords="597,104,792,129"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="549,114,584,114,584,119,549,119"/>
+<area shape="rect" id="Node000006" href="$classComponent.html#af6393dedb829b5c2527f09da4fa4d05c" title="Obtiene la cantidad disponible del componente." alt="" coords="615,153,774,179"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="496,127,612,148,611,153,495,132"/>
+<area shape="rect" id="Node000007" href="$classComponent.html#a54762b55028636c72dcf9737417239df" title="Obtiene el tipo o categoría del componente." alt="" coords="627,203,762,228"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="454,127,519,156,598,187,627,197,626,202,596,193,517,161,452,132"/>
+</map>

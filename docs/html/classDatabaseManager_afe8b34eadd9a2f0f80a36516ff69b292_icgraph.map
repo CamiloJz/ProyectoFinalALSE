@@ -1,0 +1,7 @@
+<map id="DatabaseManager::initializeTables" name="DatabaseManager::initializeTables">
+<area shape="rect" id="Node000001" title="Crea las tablas necesarias en la base de datos si no existen." alt="" coords="504,5,709,45"/>
+<area shape="rect" id="Node000002" href="$classInventoryManager.html#a0442362e8a24823613cc04eea912844a" title="Inicializa el gestor de inventario abriendo la base de datos." alt="" coords="251,13,456,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="490,28,456,28,456,23,490,23"/>
+<area shape="rect" id="Node000003" href="$classMainWindow.html#a996c5a2b6f77944776856f08ec30858d" title="Constructor de MainWindow." alt="" coords="5,13,203,38"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="237,28,203,28,203,23,237,23"/>
+</map>

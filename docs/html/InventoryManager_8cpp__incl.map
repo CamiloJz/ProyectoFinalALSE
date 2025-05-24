@@ -1,0 +1,24 @@
+<map id="InventoryManager.cpp" name="InventoryManager.cpp">
+<area shape="rect" id="Node000001" title="Implementación de los métodos de la clase InventoryManager para la gestión de inventario." alt="" coords="179,5,346,31"/>
+<area shape="rect" id="Node000002" href="$InventoryManager_8h.html" title="Declaración de la clase InventoryManager para la gestión de inventario." alt="" coords="116,79,268,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="253,33,215,71,211,67,249,29"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="292,79,377,104"/>
+<area shape="poly" id="edge12_Node000001_Node000010" title=" " alt="" coords="276,29,315,67,311,71,273,33"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,225,80,251"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="182,106,66,218,62,214,178,103"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="105,225,167,251"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="188,105,164,153,145,212,140,211,159,151,183,103"/>
+<area shape="rect" id="Node000005" href="$Component_8h.html" title="Define la clase Component, que representa un componente de inventario con propiedades como id,..." alt="" coords="331,225,440,251"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="242,102,292,120,317,133,339,150,363,180,379,211,374,214,359,183,335,154,314,138,290,125,241,107"/>
+<area shape="rect" id="Node000008" href="$DatabaseManager_8h.html" title="Declaración de la clase DatabaseManager para gestionar la conexión y operaciones en la base de datos." alt="" coords="173,152,325,177"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="204,103,233,139,229,143,199,106"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="305,299,375,324"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="380,252,357,289,352,286,376,250"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="399,299,462,324"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="395,250,418,286,414,289,391,252"/>
+<area shape="poly" id="edge8_Node000008_Node000003" title=" " alt="" coords="217,180,90,223,88,218,215,175"/>
+<area shape="poly" id="edge11_Node000008_Node000004" title=" " alt="" coords="233,180,167,220,164,216,230,175"/>
+<area shape="poly" id="edge10_Node000008_Node000005" title=" " alt="" coords="272,175,352,217,350,221,270,180"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="192,225,307,251"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="252,178,252,212,247,212,247,178"/>
+</map>

@@ -1,0 +1,25 @@
+<map id="DatabaseManager.cpp" name="DatabaseManager.cpp">
+<area shape="rect" id="Node000001" title="Implementación de los métodos de la clase DatabaseManager para gestionar la base de datos." alt="" coords="402,5,569,31"/>
+<area shape="rect" id="Node000002" href="$DatabaseManager_8h.html" title="Declaración de la clase DatabaseManager para gestionar la conexión y operaciones en la base de datos." alt="" coords="153,79,305,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="445,33,284,78,283,72,443,28"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="329,79,420,104"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="469,33,406,73,403,69,466,28"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="444,79,527,104"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="488,31,488,65,483,65,483,31"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="551,79,630,104"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="504,28,564,69,561,73,501,33"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="655,79,729,104"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="519,28,646,72,645,77,518,33"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,152,80,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="200,107,87,149,85,145,198,102"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="104,152,219,177"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="220,106,184,144,180,140,216,102"/>
+<area shape="rect" id="Node000005" href="$Component_8h.html" title="Define la clase Component, que representa un componente de inventario con propiedades como id,..." alt="" coords="243,152,352,177"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="242,102,279,140,275,144,239,106"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="377,152,439,177"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="259,102,367,144,365,149,257,107"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="217,225,287,251"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="292,179,269,215,264,212,288,176"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="311,225,374,251"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="307,176,330,212,326,215,303,179"/>
+</map>

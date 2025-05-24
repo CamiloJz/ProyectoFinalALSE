@@ -1,0 +1,5 @@
+<map id="InventoryManager::getLowStockComponents" name="InventoryManager::getLowStockComponents">
+<area shape="rect" id="Node000001" title="Obtiene los componentes cuyo stock está por debajo de un umbral." alt="" coords="5,5,201,45"/>
+<area shape="rect" id="Node000002" href="$classDatabaseManager.html#a90b6e109c3462588c8e2a8958e64ca64" title="Recupera todos los componentes almacenados en la base de datos." alt="" coords="249,5,448,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="202,23,235,23,235,28,202,28"/>
+</map>

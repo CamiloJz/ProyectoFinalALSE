@@ -1,0 +1,15 @@
+<map id="DatabaseManager.h" name="DatabaseManager.h">
+<area shape="rect" id="Node000001" title="Declaración de la clase DatabaseManager para gestionar la conexión y operaciones en la base de datos." alt="" coords="153,5,305,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,79,80,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="200,33,87,76,85,71,198,28"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="104,79,219,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="220,33,184,70,180,67,216,29"/>
+<area shape="rect" id="Node000004" href="$Component_8h.html" title="Define la clase Component, que representa un componente de inventario con propiedades como id,..." alt="" coords="243,79,352,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="242,29,279,67,275,70,239,33"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="377,79,439,104"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="259,28,367,71,365,76,257,33"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="217,152,287,177"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="292,106,269,142,264,139,288,103"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="311,152,374,177"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="307,103,330,139,326,142,303,106"/>
+</map>

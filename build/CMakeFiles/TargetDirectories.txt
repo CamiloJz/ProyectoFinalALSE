@@ -1,0 +1,5 @@
+/home/milo/GestorInventario/build/CMakeFiles/GestorInventario.dir
+/home/milo/GestorInventario/build/CMakeFiles/edit_cache.dir
+/home/milo/GestorInventario/build/CMakeFiles/rebuild_cache.dir
+/home/milo/GestorInventario/build/CMakeFiles/GestorInventario_autogen_timestamp_deps.dir
+/home/milo/GestorInventario/build/CMakeFiles/GestorInventario_autogen.dir

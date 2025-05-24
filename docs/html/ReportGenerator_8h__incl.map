@@ -1,0 +1,14 @@
+<map id="ReportGenerator.h" name="ReportGenerator.h">
+<area shape="rect" id="Node000001" title="Declaración de la clase ReportGenerator para generar informes de componentes." alt="" coords="81,5,223,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,79,80,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="136,33,74,73,71,69,133,28"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="127,152,198,177"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="151,31,145,64,145,104,155,139,150,140,140,104,140,64,146,30"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="155,79,218,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="160,30,177,65,173,67,155,32"/>
+<area shape="rect" id="Node000005" href="$Component_8h.html" title="Define la clase Component, que representa un componente de inventario con propiedades como id,..." alt="" coords="243,79,352,104"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="177,28,263,70,260,75,174,33"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="277,106,198,148,196,143,274,102"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="266,152,329,177"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="300,104,300,138,295,138,295,104"/>
+</map>

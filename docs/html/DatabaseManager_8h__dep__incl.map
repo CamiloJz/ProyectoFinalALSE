@@ -1,0 +1,15 @@
+<map id="DatabaseManager.h" name="DatabaseManager.h">
+<area shape="rect" id="Node000001" title="Declaración de la clase DatabaseManager para gestionar la conexión y operaciones en la base de datos." alt="" coords="105,5,257,31"/>
+<area shape="rect" id="Node000002" href="$DatabaseManager_8cpp.html" title="Implementación de los métodos de la clase DatabaseManager para gestionar la base de datos." alt="" coords="5,79,172,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="157,41,105,81,102,76,154,37"/>
+<area shape="rect" id="Node000003" href="$InventoryManager_8h.html" title="Declaración de la clase InventoryManager para la gestión de inventario." alt="" coords="197,79,349,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="208,37,259,76,256,81,204,41"/>
+<area shape="rect" id="Node000004" href="$InventoryManager_8cpp.html" title="Implementación de los métodos de la clase InventoryManager para la gestión de inventario." alt="" coords="105,152,272,177"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="250,115,204,154,201,150,247,111"/>
+<area shape="rect" id="Node000005" href="$MainWindow_8h.html" title="Declaración de la clase MainWindow para la interfaz principal de la aplicación." alt="" coords="297,152,414,177"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="298,111,344,150,340,154,295,115"/>
+<area shape="rect" id="Node000006" href="$MainWindow_8cpp.html" title="Implementación de la clase MainWindow para la interfaz principal de la aplicación." alt="" coords="223,225,355,251"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="337,190,301,227,298,223,333,186"/>
+<area shape="rect" id="Node000007" href="$main_8cpp.html" title="Punto de entrada de la aplicación de inventario." alt="" coords="379,225,462,251"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="377,186,412,223,408,227,373,189"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="Component::id" name="Component::id">
+<area shape="rect" id="Node000001" title="Obtiene el identificador único del componente." alt="" coords="565,31,683,56"/>
+<area shape="rect" id="Node000002" href="$classComponent.html#adcba60cb547a56164b4d35c9d2a4278c" title="Establece el identificador único del componente." alt="" coords="314,5,451,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="551,38,451,28,452,23,552,33"/>
+<area shape="rect" id="Node000003" href="$classDatabaseManager.html#ade951f0e1c52117ce0bc510427a0b52e" title="Actualiza los datos de un componente existente." alt="" coords="248,55,517,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="552,53,510,57,510,52,551,48"/>
+<area shape="rect" id="Node000004" href="$classInventoryManager.html#adce8983cba552c3c2490bec21b48e5c4" title="Actualiza los datos de un componente existente en el inventario." alt="" coords="5,47,200,87"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="234,70,200,70,200,65,234,65"/>
+</map>

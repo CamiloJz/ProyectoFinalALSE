@@ -1,0 +1,5 @@
+<map id="Component::setType" name="Component::setType">
+<area shape="rect" id="Node000001" title="Establece el tipo o categoría del componente." alt="" coords="5,5,160,31"/>
+<area shape="rect" id="Node000002" href="$classComponent.html#a54762b55028636c72dcf9737417239df" title="Obtiene el tipo o categoría del componente." alt="" coords="208,5,343,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="160,15,194,15,194,21,160,21"/>
+</map>

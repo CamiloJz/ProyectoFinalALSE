@@ -1,0 +1,49 @@
+# Doxyfile 1.9.6 - Configuración para GestorInventario
+
+# Nombre del proyecto
+PROJECT_NAME           = "Gestor de Inventario"
+PROJECT_BRIEF          = "Aplicación Qt C++ para la gestión de componentes electrónicos"
+
+# Carpeta donde se genera la documentación
+OUTPUT_DIRECTORY       = docs
+
+# Idioma de la documentación
+OUTPUT_LANGUAGE        = Spanish
+
+# Archivos que se van a documentar
+INPUT                  = .
+FILE_PATTERNS          = *.cpp *.h *.ui
+
+# No hay subdirectorios
+RECURSIVE              = NO
+
+# Extraer todo, incluso sin comentarios Doxygen
+EXTRACT_ALL            = YES
+
+# Mostrar diagramas de herencia y llamadas (requiere Graphviz)
+HAVE_DOT               = YES
+DOT_IMAGE_FORMAT       = svg
+CLASS_DIAGRAMS         = YES
+CALL_GRAPH             = YES
+CALLER_GRAPH           = YES
+
+# No generar documentación en LaTeX (solo HTML)
+GENERATE_LATEX         = NO
+GENERATE_MAN           = NO
+
+# Nombre de los archivos HTML
+GENERATE_HTML          = YES
+HTML_OUTPUT            = html
+
+# Título del índice principal
+PROJECT_LOGO           =
+HTML_DYNAMIC_SECTIONS  = YES
+
+# Mostrar los nombres completos en la documentación
+FULL_PATH_NAMES        = YES
+STRIP_FROM_PATH        = .
+
+# Opcional: mejora el look
+GENERATE_TREEVIEW      = YES
+
+

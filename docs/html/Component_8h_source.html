@@ -1,0 +1,179 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Gestor de Inventario: Archivo de código fuente Component.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Gestor de Inventario
+   </div>
+   <div id="projectbrief">Aplicación Qt C++ para la gestión de componentes electrónicos</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.9.8 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function() { init_codefold(0); });
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('Component_8h_source.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Cargando...</div>
+<div class="SRStatus" id="Searching">Buscando...</div>
+<div class="SRStatus" id="NoMatches">Nada coincide</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">Component.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="Component_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#ifndef COMPONENT_H</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#define COMPONENT_H</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &lt;QString&gt;</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &lt;QDate&gt;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
+<div class="foldopen" id="foldopen00020" data-start="{" data-end="};">
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="classComponent.html">   20</a></span><span class="keyword">class </span><a class="code hl_class" href="classComponent.html">Component</a> {</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    <a class="code hl_class" href="classComponent.html">Component</a>(<span class="keywordtype">int</span> <span class="keywordtype">id</span> = -1,</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>              <span class="keyword">const</span> QString &amp;<a class="code hl_function" href="classComponent.html#ac3e00b0de9b1817765d0f4838f04d159">name</a> = <span class="stringliteral">&quot;&quot;</span>,</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>              <span class="keyword">const</span> QString &amp;<a class="code hl_function" href="classComponent.html#a54762b55028636c72dcf9737417239df">type</a> = <span class="stringliteral">&quot;&quot;</span>,</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>              <span class="keywordtype">int</span> <a class="code hl_function" href="classComponent.html#af6393dedb829b5c2527f09da4fa4d05c">quantity</a> = 0,</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>              <span class="keyword">const</span> QString &amp;<a class="code hl_function" href="classComponent.html#affbdac04e08e18487fb4cb139b71dbc7">location</a> = <span class="stringliteral">&quot;&quot;</span>,</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>              <span class="keyword">const</span> QDate &amp;<a class="code hl_function" href="classComponent.html#a67289b67df4f7f707c5ad1083feea23a">purchaseDate</a> = QDate::currentDate());</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <span class="comment">// Getters</span></div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    <span class="keywordtype">int</span> <a class="code hl_function" href="classComponent.html#aa83353d3aa5d48e7b80c40f230db8dee">id</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    QString <a class="code hl_function" href="classComponent.html#ac3e00b0de9b1817765d0f4838f04d159">name</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    QString <a class="code hl_function" href="classComponent.html#a54762b55028636c72dcf9737417239df">type</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    <span class="keywordtype">int</span> <a class="code hl_function" href="classComponent.html#af6393dedb829b5c2527f09da4fa4d05c">quantity</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    QString <a class="code hl_function" href="classComponent.html#affbdac04e08e18487fb4cb139b71dbc7">location</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    QDate <a class="code hl_function" href="classComponent.html#a67289b67df4f7f707c5ad1083feea23a">purchaseDate</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> </div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    <span class="comment">// Setters</span></div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classComponent.html#adcba60cb547a56164b4d35c9d2a4278c">setId</a>(<span class="keywordtype">int</span> <span class="keywordtype">id</span>);</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span> </div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classComponent.html#add35b6b9fa98c9e702b181b1f2d250ad">setName</a>(<span class="keyword">const</span> QString &amp;<a class="code hl_function" href="classComponent.html#ac3e00b0de9b1817765d0f4838f04d159">name</a>);</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span> </div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classComponent.html#abaa84f200705429da2dfc1214b812876">setType</a>(<span class="keyword">const</span> QString &amp;<a class="code hl_function" href="classComponent.html#a54762b55028636c72dcf9737417239df">type</a>);</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span> </div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classComponent.html#a096ded5396f4edb8b6a50ee01267dab2">setQuantity</a>(<span class="keywordtype">int</span> <a class="code hl_function" href="classComponent.html#af6393dedb829b5c2527f09da4fa4d05c">quantity</a>);</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span> </div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classComponent.html#a8c9e2ad9835023268aa1f641af6f7d84">setLocation</a>(<span class="keyword">const</span> QString &amp;<a class="code hl_function" href="classComponent.html#affbdac04e08e18487fb4cb139b71dbc7">location</a>);</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span> </div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classComponent.html#aa222a13e41a78221993d40ffb30ff81a">setPurchaseDate</a>(<span class="keyword">const</span> QDate &amp;date);</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span> </div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>    <span class="keywordtype">int</span> m_id;            </div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>    QString m_name;      </div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>    QString m_type;      </div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>    <span class="keywordtype">int</span> m_quantity;      </div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>    QString m_location;  </div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>    QDate m_purchaseDate;</div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>};</div>
+</div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span> </div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span><span class="preprocessor">#endif </span><span class="comment">// COMPONENT_H</span></div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span> </div>
+<div class="ttc" id="aclassComponent_html"><div class="ttname"><a href="classComponent.html">Component</a></div><div class="ttdoc">Representa un componente de inventario con atributos identificadores y descriptivos.</div><div class="ttdef"><b>Definition</b> Component.h:20</div></div>
+<div class="ttc" id="aclassComponent_html_a096ded5396f4edb8b6a50ee01267dab2"><div class="ttname"><a href="classComponent.html#a096ded5396f4edb8b6a50ee01267dab2">Component::setQuantity</a></div><div class="ttdeci">void setQuantity(int quantity)</div><div class="ttdoc">Establece la cantidad disponible del componente.</div><div class="ttdef"><b>Definition</b> Component.cpp:88</div></div>
+<div class="ttc" id="aclassComponent_html_a54762b55028636c72dcf9737417239df"><div class="ttname"><a href="classComponent.html#a54762b55028636c72dcf9737417239df">Component::type</a></div><div class="ttdeci">QString type() const</div><div class="ttdoc">Obtiene el tipo o categoría del componente.</div><div class="ttdef"><b>Definition</b> Component.cpp:39</div></div>
+<div class="ttc" id="aclassComponent_html_a67289b67df4f7f707c5ad1083feea23a"><div class="ttname"><a href="classComponent.html#a67289b67df4f7f707c5ad1083feea23a">Component::purchaseDate</a></div><div class="ttdeci">QDate purchaseDate() const</div><div class="ttdoc">Obtiene la fecha de compra del componente.</div><div class="ttdef"><b>Definition</b> Component.cpp:60</div></div>
+<div class="ttc" id="aclassComponent_html_a8c9e2ad9835023268aa1f641af6f7d84"><div class="ttname"><a href="classComponent.html#a8c9e2ad9835023268aa1f641af6f7d84">Component::setLocation</a></div><div class="ttdeci">void setLocation(const QString &amp;location)</div><div class="ttdoc">Establece la ubicación de almacenamiento del componente.</div><div class="ttdef"><b>Definition</b> Component.cpp:95</div></div>
+<div class="ttc" id="aclassComponent_html_aa222a13e41a78221993d40ffb30ff81a"><div class="ttname"><a href="classComponent.html#aa222a13e41a78221993d40ffb30ff81a">Component::setPurchaseDate</a></div><div class="ttdeci">void setPurchaseDate(const QDate &amp;date)</div><div class="ttdoc">Establece la fecha de compra del componente.</div><div class="ttdef"><b>Definition</b> Component.cpp:102</div></div>
+<div class="ttc" id="aclassComponent_html_aa83353d3aa5d48e7b80c40f230db8dee"><div class="ttname"><a href="classComponent.html#aa83353d3aa5d48e7b80c40f230db8dee">Component::id</a></div><div class="ttdeci">int id() const</div><div class="ttdoc">Obtiene el identificador único del componente.</div><div class="ttdef"><b>Definition</b> Component.cpp:25</div></div>
+<div class="ttc" id="aclassComponent_html_abaa84f200705429da2dfc1214b812876"><div class="ttname"><a href="classComponent.html#abaa84f200705429da2dfc1214b812876">Component::setType</a></div><div class="ttdeci">void setType(const QString &amp;type)</div><div class="ttdoc">Establece el tipo o categoría del componente.</div><div class="ttdef"><b>Definition</b> Component.cpp:81</div></div>
+<div class="ttc" id="aclassComponent_html_ac3e00b0de9b1817765d0f4838f04d159"><div class="ttname"><a href="classComponent.html#ac3e00b0de9b1817765d0f4838f04d159">Component::name</a></div><div class="ttdeci">QString name() const</div><div class="ttdoc">Obtiene el nombre descriptivo del componente.</div><div class="ttdef"><b>Definition</b> Component.cpp:32</div></div>
+<div class="ttc" id="aclassComponent_html_adcba60cb547a56164b4d35c9d2a4278c"><div class="ttname"><a href="classComponent.html#adcba60cb547a56164b4d35c9d2a4278c">Component::setId</a></div><div class="ttdeci">void setId(int id)</div><div class="ttdoc">Establece el identificador único del componente.</div><div class="ttdef"><b>Definition</b> Component.cpp:67</div></div>
+<div class="ttc" id="aclassComponent_html_add35b6b9fa98c9e702b181b1f2d250ad"><div class="ttname"><a href="classComponent.html#add35b6b9fa98c9e702b181b1f2d250ad">Component::setName</a></div><div class="ttdeci">void setName(const QString &amp;name)</div><div class="ttdoc">Establece el nombre descriptivo del componente.</div><div class="ttdef"><b>Definition</b> Component.cpp:74</div></div>
+<div class="ttc" id="aclassComponent_html_af6393dedb829b5c2527f09da4fa4d05c"><div class="ttname"><a href="classComponent.html#af6393dedb829b5c2527f09da4fa4d05c">Component::quantity</a></div><div class="ttdeci">int quantity() const</div><div class="ttdoc">Obtiene la cantidad disponible del componente.</div><div class="ttdef"><b>Definition</b> Component.cpp:46</div></div>
+<div class="ttc" id="aclassComponent_html_affbdac04e08e18487fb4cb139b71dbc7"><div class="ttname"><a href="classComponent.html#affbdac04e08e18487fb4cb139b71dbc7">Component::location</a></div><div class="ttdeci">QString location() const</div><div class="ttdoc">Obtiene la ubicación de almacenamiento del componente.</div><div class="ttdef"><b>Definition</b> Component.cpp:53</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="Component_8h.html">Component.h</a></li>
+    <li class="footer">Generado por <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+  </ul>
+</div>
+</body>
+</html>

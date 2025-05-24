@@ -1,0 +1,5 @@
+<map id="DatabaseManager::~DatabaseManager" name="DatabaseManager::~DatabaseManager">
+<area shape="rect" id="Node000001" title="Destructor de DatabaseManager. Cierra la conexión a la base de datos si está abierta." alt="" coords="5,5,228,45"/>
+<area shape="rect" id="Node000002" href="$classDatabaseManager.html#ad95de729a1eba5e3dd35a8df0fb87f37" title="Cierra la conexión a la base de datos." alt="" coords="276,13,521,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="228,23,262,23,262,28,228,28"/>
+</map>
