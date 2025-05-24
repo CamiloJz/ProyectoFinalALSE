@@ -1,11 +1,18 @@
 /// @file ReportGenerator.cpp
 /// @brief Implementación de los métodos de la clase ReportGenerator para generación de informes en CSV y PDF.
+
 #include "ReportGenerator.h"
 #include <QFile>
 #include <QTextStream>
 #include <QPdfWriter>
 #include <QPainter>
 #include <QDate>
+#include <QTextDocument>
+#include <QTextCursor>
+#include <QTextTable>
+#include <QTextTableFormat>
+#include <QPdfWriter>
+#include <QPainter>
 
 /// @brief Constructor de ReportGenerator.
 /// @param parent Objeto padre en la jerarquía de Qt (por defecto nullptr).
@@ -47,32 +54,50 @@ bool ReportGenerator::generateCSV(const QString &filePath, const std::vector<Com
 /// @param components Vector de objetos Component que se incluirán en el informe.
 /// @return true si el PDF se genera y guarda correctamente; false en caso de error durante la generación.
 bool ReportGenerator::generatePDF(const QString &filePath, const std::vector<Component> &components) {
-    QPdfWriter writer(filePath);
+QPdfWriter writer(filePath);
     writer.setPageSize(QPagedPaintDevice::A4);
-    QPainter painter(&writer);
+    writer.setResolution(300);
 
-    int y = 100;
-    // Título del informe con la fecha actual
-    painter.setFont(QFont("Helvetica", 12));
-    painter.drawText(100, 50, "Reporte de Inventario - " + QDate::currentDate().toString(Qt::ISODate));
-    // Cabecera de columnas
-    painter.drawText(100, y, "ID   Nombre   Tipo   Cantidad   Ubicacion   FechaCompra");
-    y += 30;
+    QTextDocument doc;
+    QTextCursor cursor(&doc);
 
-    // Contenido de cada componente
-    for (const auto &c : components) {
-        QString line = QString::number(c.id()) + "   " + c.name() + "   " + c.type() + "   "
-                       + QString::number(c.quantity()) + "   " + c.location() + "   "
-                       + c.purchaseDate().toString(Qt::ISODate);
-        painter.drawText(100, y, line);
-        y += 20;
-        // Nueva página si se supera el límite inferior
-        if (y > writer.height() - 100) {
-            writer.newPage();
-            y = 100;
-        }
+    // Título
+    cursor.insertText("Reporte de Inventario - " + QDate::currentDate().toString(Qt::ISODate) + "\n\n");
+
+    // Tabla
+    QTextTableFormat tableFormat;
+    tableFormat.setHeaderRowCount(1);
+    tableFormat.setCellPadding(4);
+    tableFormat.setCellSpacing(0);
+    tableFormat.setBorder(1);
+
+    QTextTable *table = cursor.insertTable(components.size() + 1, 6, tableFormat);
+
+    // Cabeceras
+    QStringList headers = {"ID", "Nombre", "Tipo", "Cantidad", "Ubicación", "Fecha Compra"};
+    for (const QString &header : headers) {
+        cursor.insertText(header);
+        cursor.movePosition(QTextCursor::NextCell);
     }
-    painter.end();
+
+    // Datos
+    for (const auto &c : components) {
+        cursor.insertText(QString::number(c.id()));
+        cursor.movePosition(QTextCursor::NextCell);
+        cursor.insertText(c.name());
+        cursor.movePosition(QTextCursor::NextCell);
+        cursor.insertText(c.type());
+        cursor.movePosition(QTextCursor::NextCell);
+        cursor.insertText(QString::number(c.quantity()));
+        cursor.movePosition(QTextCursor::NextCell);
+        cursor.insertText(c.location());
+        cursor.movePosition(QTextCursor::NextCell);
+        cursor.insertText(c.purchaseDate().toString(Qt::ISODate));
+        cursor.movePosition(QTextCursor::NextCell);
+    }
+
+    doc.setPageSize(QSizeF(writer.width(), writer.height()));
+    doc.print(&writer);
+
     return true;
 }
-
